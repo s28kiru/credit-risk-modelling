@@ -1,0 +1,12 @@
+# Dstore #
+####################################
+.DS_Store
+.Rhistory
+
+# Data files #
+####################################
+/data/**
+
+# python checkpoints #
+####################################
+.ipynb_checkpoints/

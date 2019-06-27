@@ -37,5 +37,8 @@ UCI repository data: https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 
 ### Baseline model
 
-- numerical variables - LIMIT_BAL, AGE
-- categorical variables - SEX, EDUCATION, MARRIAGE, PAY_0, PAY_2, PAY_3, PAY_4, PAY_5, PAY_6,
+- numerical variables - LIMIT_BAL, AGE, BILL_AMT1, BILL_AMT2, BILL_AMT3, BILL_AMT4, BILL_AMT5, BILL_AMT6, PAY_AMT1, PAY_AMT2, PAY_AMT3, PAY_AMT4, PAY_AMT5, PAY_AMT6
+- categorical variables - SEX, EDUCATION, MARRIAGE, PAY_0, PAY_2, PAY_3, PAY_4, PAY_5, PAY_6
+
+- Accuracy of logistic - 77.57
+- Predicted all data points to majority class - because of imbalanced dataset

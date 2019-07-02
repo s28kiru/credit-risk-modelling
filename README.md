@@ -6,7 +6,7 @@ UCI repository data: https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 
 - Credit risk modelling is to understand the credit worthiness of the burrower and check how likely the burrower is going to default a loan
 
-### Exploratory data analysis
+## Exploratory data analysis
 
 - `ID` - set as index
 - `LIMIT_BAL` - Amount of given credit in NT dollars (includes individual and family/supplementary credit) - not normal but no possible outliers
@@ -35,10 +35,19 @@ UCI repository data: https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 - `PAY_AMT6` -  Amount of previous payment in April, 2005 (NT dollar)
 - `default.payment.next.month` -  Default payment (1=yes, 0=no)
 
-### Baseline model
+## Classification models
 
 - numerical variables - LIMIT_BAL, AGE, BILL_AMT1, BILL_AMT2, BILL_AMT3, BILL_AMT4, BILL_AMT5, BILL_AMT6, PAY_AMT1, PAY_AMT2, PAY_AMT3, PAY_AMT4, PAY_AMT5, PAY_AMT6
 - categorical variables - SEX, EDUCATION, MARRIAGE, PAY_0, PAY_2, PAY_3, PAY_4, PAY_5, PAY_6
 
-- Accuracy of logistic - 77.57
-- Predicted all data points to majority class - because of imbalanced dataset
+
+| **Model**               | **Accuracy**    |  **AUC**        |
+|:------------------------|:----------------|:----------------| 
+| Logistic Regression     |                 |                 | 
+| KNN                     |                 |                 | 
+| Discriminant analysis   |                 |                 | 
+| Naive Bayes             |                 |                 | 
+| Classification Trees    |                 |                 | 
+| Neural networks         |                 |                 | 
+| Random Forest           |                 |                 | 
+

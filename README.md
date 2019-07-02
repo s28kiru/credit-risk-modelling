@@ -44,7 +44,7 @@ UCI repository data: https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 | **Model**               | **Accuracy**    |  **AUC**        |
 |:------------------------|:----------------|:----------------| 
 | Logistic Regression     |    0.78         |    0.6409       | 
-| KNN                     |                 |                 | 
+| KNN                     |    0.815        |    0.751        | 
 | Discriminant analysis   |                 |                 | 
 | Naive Bayes             |                 |                 | 
 | Classification Trees    |                 |                 | 

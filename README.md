@@ -46,8 +46,8 @@ UCI repository data: https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 | Logistic Regression     |    0.78         |    0.6409       | 
 | KNN                     |    0.815        |    0.751        | 
 | Discriminant analysis   |                 |                 | 
-| Naive Bayes             |                 |                 | 
-| Classification Trees    |                 |                 | 
+| Naive Bayes             |    0.36         |    0.62         | 
+| Classification Trees    |    0.72         |    0.60         | 
 | Neural networks         |                 |                 | 
-| Random Forest           |                 |                 | 
+| Random Forest           |    0.808        |    0.7343       | 
 

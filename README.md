@@ -48,6 +48,6 @@ UCI repository data: https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 | Discriminant analysis   |                 |                 | 
 | Naive Bayes             |    0.36         |    0.62         | 
 | Classification Trees    |    0.72         |    0.60         | 
-| Neural networks         |                 |                 | 
+| Neural networks         |    0.8095       |    0.7546       | 
 | Random Forest           |    0.808        |    0.7343       | 
 
